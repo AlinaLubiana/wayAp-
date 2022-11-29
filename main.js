@@ -100,7 +100,7 @@ if(randomNumber < 20){
 const randomNumber2 = Math.floor(Math.random() * 100);
 console.log(randomNumber2);
 
-switch(randomNumber2) {
+switch(true) {
     case (randomNumber2 < 20) :
         console.log('randomNumber2 меньше 20');
         break;
